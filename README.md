@@ -1,0 +1,71 @@
+# GrootSwift
+[![Gitter](https://badges.gitter.im/acm-uiuc/groot-development.svg)](https://gitter.im/acm-uiuc/groot-development?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+Pod for easily adding Groot integration to your iOS App or Swift Project
+
+
+## Requirements
+
+- iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- Xcode 8.2+
+- Swift 3.1+
+
+
+## Installation
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+> CocoaPods 1.1.0+ is required to build GrootSwift.
+
+To integrate GrootSwift into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'GrootSwift', '~> 0.3.1'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+
+## Usage
+
+### Example Merch Service Request
+
+```swift
+import GrootSwift
+
+MerchService.getItems(success: { (json) in
+    // Handle Success (Background thread)
+}) { (error) in
+    // Handle Failure (Background thread)
+}.perform(withAuthorization: nil)
+```
+
+
+## License
+
+This project is licensed under the University of Illinois/NCSA Open Source License. For a full copy of this license take a look at the LICENSE file.
+
+When contributing new files to this project, preappend the following header to the file as a comment:
+
+```
+Copyright © 2017, ACM@UIUC
+
+This file is part of the Merch Project.
+
+The Merch Project is open source software, released under the University of Illinois/NCSA Open Source License.
+You should have received a copy of this license in a file with the distribution.
+```
