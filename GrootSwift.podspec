@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "GrootSwift"
-  s.version      = "0.5.1"
+  s.version      = "0.6.0"
   s.summary      = "Swift API for Groot"
 
   s.description  = <<-DESC
