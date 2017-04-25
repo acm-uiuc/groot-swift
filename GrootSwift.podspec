@@ -11,8 +11,6 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/acm-uiuc/groot-swift"
-  s.deprecated   = true
-  s.deprecated_in_favor_of = 'APIManager'
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -20,7 +18,7 @@ Pod::Spec.new do |s|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.author       = { "acm@uiuc" => "acm@illinois.edu" }
+  s.author       = { "ACM@UIUC" => "acm@illinois.edu" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "10.0"
@@ -31,14 +29,15 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source_files  = "groot-swift/Classes/**/*.{swift}", "groot-swift/Protocols/**/*.{swift}"
+  s.source_files = "GrootSwift/Classes/**/*.{swift}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.framework  = "Foundation"
+  s.framework = "Foundation"
+  s.dependency  "APIManager"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 

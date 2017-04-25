@@ -1,0 +1,40 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/rauhul/Developer/groot-swift/GrootSwift/Classes/GrootMerchService.swift",
+      "line": 12,
+      "symbol": "GrootMerchService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rauhul/Developer/groot-swift/GrootSwift/Classes/GrootService.swift",
+      "line": 12,
+      "symbol": "GrootService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rauhul/Developer/groot-swift/GrootSwift/Classes/GrootService.swift",
+      "line": 27,
+      "symbol": "GrootService.validate(json:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rauhul/Developer/groot-swift/GrootSwift/Classes/GrootService.swift",
+      "line": 39,
+      "symbol": "GrootService.CLIENT_KEY",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rauhul/Developer/groot-swift/GrootSwift/Classes/GrootService.swift",
+      "line": 41,
+      "symbol": "GrootService.registerClientKey(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/rauhul/Developer/groot-swift"
+}

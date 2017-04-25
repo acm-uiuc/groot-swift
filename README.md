@@ -6,9 +6,9 @@ Pod for easily adding Groot integration to your iOS App or Swift Project
 
 ## Requirements
 
-- iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
-- Xcode 8.2+
-- Swift 3.1+
+- iOS 10.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- Xcode 8.0+
+- Swift 3.0+
 
 
 ## Installation
@@ -19,12 +19,11 @@ Pod for easily adding Groot integration to your iOS App or Swift Project
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required to build GrootSwift.
+> CocoaPods 1.0.0+ is required to build GrootSwift.
 
 To integrate GrootSwift into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
 
