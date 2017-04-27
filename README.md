@@ -6,7 +6,7 @@ Pod for easily adding Groot integration to your iOS App or Swift Project
 
 ## Requirements
 
-- iOS 10.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 10.0+ / tvOS 10.0+ 
 - Xcode 8.0+
 - Swift 3.0+
 

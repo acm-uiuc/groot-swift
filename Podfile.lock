@@ -1,12 +1,12 @@
 PODS:
-  - APIManager (0.0.2)
+  - APIManager (0.0.5)
 
 DEPENDENCIES:
-  - APIManager (~> 0.0.2)
+  - APIManager (~> 0.0.5)
 
 SPEC CHECKSUMS:
-  APIManager: 8f31892488bf7618c19a0dd3a122efd5d58e6954
+  APIManager: 8f54a4a3f21d93068fd5e0e06b0ae6c011be29b5
 
-PODFILE CHECKSUM: 28d6effab64c7d6c8e7f791d2eeb8a48424ebacc
+PODFILE CHECKSUM: 7fab95ec658cd28f144ac8bdde62d4d71a4980ea
 
 COCOAPODS: 1.2.1

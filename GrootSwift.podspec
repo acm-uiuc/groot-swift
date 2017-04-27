@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "GrootSwift"
-  s.version      = "0.6.0"
+  s.version      = "0.6.1"
   s.summary      = "Swift API for Groot"
 
   s.description  = <<-DESC
@@ -21,7 +21,9 @@ Pod::Spec.new do |s|
   s.author       = { "ACM@UIUC" => "acm@illinois.edu" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "10.0"
+
+  s.ios.deployment_target  = "10.0"
+  s.tvos.deployment_target = "10.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
