@@ -1,5 +1,7 @@
 # GrootSwift
-[![Gitter](https://badges.gitter.im/acm-uiuc/groot-development.svg)](https://gitter.im/acm-uiuc/groot-development?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+[![Join the chat at https://acm-uiuc.slack.com/messages/C6XGZD212/](https://img.shields.io/badge/slack-groot-724D71.svg)](https://acm-uiuc.slack.com/messages/C6XGZD212/)
+
 
 Pod for easily adding Groot integration to your iOS App or Swift Project
 
